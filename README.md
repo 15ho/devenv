@@ -16,7 +16,7 @@ chmod +x install.sh
 ```
 
 ## 开发环境说明
-操作系统采用Ubuntu Server
+操作系统采用Ubuntu Server 22.04
 
 环境搭建内容
 - [ ] 采用[prezto](https://github.com/sorin-ionescu/prezto)配置zsh
@@ -26,3 +26,4 @@ chmod +x install.sh
 - [ ] 安装Golang(最新版本)
 - [ ] 安装Rust(最新版本)
 - [ ] 安装[bottom](https://github.com/ClementTsang/bottom)(btm),类htop工具
+- [ ] 安装neofetch
