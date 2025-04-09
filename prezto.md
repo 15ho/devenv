@@ -30,7 +30,7 @@ zstyle ':prezto:load' pmodule \
 ```
 
 ~/.zshrc
-```
+```shell
 # Slow tab completion on WSL2: https://github.com/sorin-ionescu/prezto/issues/1820
 unsetopt PATH_DIRS
 ```
