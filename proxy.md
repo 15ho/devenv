@@ -2,6 +2,11 @@
 
 ubuntu with wsl2
 
+powershell(admin)
+```powershell
+New-NetFirewallRule -DisplayName "WSL" -Direction Inbound  -InterfaceAlias "vEthernet (WSL)"  -Action Allow
+```
+
 ~/.zshrc
 ```shell
 # get host machine ip
