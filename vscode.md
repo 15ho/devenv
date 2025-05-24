@@ -14,11 +14,34 @@ settings.json
     "http.noProxy": [
         "socks5://<host:port>"
     ],
-    "github.copilot.enable": {
-        "*": false
-    },
     "workbench.editor.empty.hint": "hidden",
 }
+```
+
+keybindings.json
+```json
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    }
+]
+
+// --- Common Shortcut Keys ---
+// ctrl + .         // quick fix
+// F1               // show all commands
+// ctrl + enter     // insert below line
+// ctrl + f         // find
+// ctrl + h         // replace
+// ctrl + shift + f // search: find
+// ctrl + shift + h // search: replace
 ```
 
 Problem: golang fill struct (quick fix)
