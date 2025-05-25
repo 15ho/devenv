@@ -52,6 +52,8 @@ keybindings.json
 // ctrl + h         // replace
 // ctrl + shift + f // search: find
 // ctrl + shift + h // search: replace
+// alt + ←          // go back
+// alt + →          // go forward
 ```
 
 Problem: golang fill struct (quick fix)
