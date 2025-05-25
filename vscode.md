@@ -24,6 +24,16 @@ settings.json
     },
     "go.testFlags": [
         "-v"
+    ],
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "NOTE"
     ]
 }
 ```
