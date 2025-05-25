@@ -5,5 +5,10 @@
 ~/.vimrc
 ```vim
 syntax on " Syntax highlightin
-set tabstop=4 " Tab to 4 spaces
+
+" Tab to 4 spaces
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
 ```
