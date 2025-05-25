@@ -15,6 +15,16 @@ settings.json
         "socks5://<host:port>"
     ],
     "workbench.editor.empty.hint": "hidden",
+    "go.addTags": {
+        "tags": "json",
+        "options": "",
+        "promptForTags": false,
+        "transform": "snakecase",
+        "template": ""
+    },
+    "go.testFlags": [
+        "-v"
+    ]
 }
 ```
 
