@@ -2,7 +2,7 @@
 
 [Comic Mono](https://github.com/dtinth/comic-mono-font)
 
-settings.json
+settings.json (User)
 ```json
 {
     "files.autoSave": "afterDelay",
@@ -34,6 +34,16 @@ settings.json
         "[ ]",
         "[x]",
         "NOTE"
+    ]
+}
+```
+
+settings.json (WSL)
+```json
+{
+    // protobuf deps: go to definition
+    "tooltitude.pb.includes": [
+        "<deps protos directory path. ex./home/xxx/.include>"
     ]
 }
 ```
