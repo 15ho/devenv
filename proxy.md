@@ -13,6 +13,7 @@ New-NetFirewallRule -DisplayName "WSL" -Direction Inbound  -InterfaceAlias "vEth
 ## vEthernet (WSL)
 ## grep -m 1 nameserver /etc/resolv.conf | awk '{print $2}'
 PROXYURL="socks5://"$(grep -m 1 nameserver /etc/resolv.conf | awk '{print $2}')":17890"
+alias proxyaddr='echo $PROXYURL'
 alias upproxy='export HTTP_PROXY="$PROXYURL" && export HTTPS_PROXY="$PROXYURL"'
 alias stopproxy='unset HTTP_PROXY && unset HTTPS_PROXY'
 ```
