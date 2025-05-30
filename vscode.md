@@ -74,6 +74,7 @@ keybindings.json
 // ctrl + shift + h // search: replace
 // alt + ←          // go back
 // alt + →          // go forward
+// ctrl + p         // go to file...(workbench.action.quickOpen)
 ```
 
 Problem: golang fill struct (quick fix)
