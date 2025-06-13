@@ -82,3 +82,13 @@ keybindings.json
 Problem: golang fill struct (quick fix)
 > keyboard shortcuts(ctrl + .) not work
 > reason: sogou input binding keyboard shortcuts
+
+
+extensions
+```shell
+# export extension list
+code --list-extensions > vscode-extensions.txt
+
+# install extensions
+cat vscode-extensions.txt | xargs -L 1 code --install-extension
+```
