@@ -92,3 +92,13 @@ code --list-extensions > vscode-extensions.txt
 # install extensions
 cat vscode-extensions.txt | xargs -L 1 code --install-extension
 ```
+
+Problem: rust-analyzer caused wsl2 to disconnect
+```toml
+# windows: c:/Users/<your username>/.wslconf
+## more  info: https://learn.microsoft.com/en-us/windows/wsl/wsl-config#wslconfig
+[wsl2]
+memory=12GB # default: windows memory's 50%
+processors=12 # default: same as windows processors
+swap=8GB #  default: windows memory's 25%
+```
