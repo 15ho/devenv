@@ -1,5 +1,7 @@
 # Visual Studio Code
 
+## Settings
+
 [Comic Mono](https://github.com/dtinth/comic-mono-font)
 
 settings.json (User)
@@ -48,6 +50,8 @@ settings.json (WSL)
 }
 ```
 
+## Keybindings
+
 keybindings.json
 ```json
 // Place your key bindings in this file to override the defaults
@@ -84,10 +88,18 @@ Problem: golang fill struct (quick fix)
 > reason: sogou input binding keyboard shortcuts
 
 
-extensions
+## Extensions
+
+Windows
+```powershell
+code --list-extensions > vscode-extensions-win.txt
+```
+
+WSL Ubuntu
 ```shell
 # export extension list
-code --list-extensions > vscode-extensions.txt
+rm vscode-extensions-wsl.txt
+code --list-extensions > vscode-extensions-wsl.txt
 
 # install extensions
 cat vscode-extensions.txt | xargs -L 1 code --install-extension
