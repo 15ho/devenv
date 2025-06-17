@@ -114,3 +114,6 @@ memory=12GB # default: windows memory's 50%
 processors=12 # default: same as windows processors
 swap=8GB #  default: windows memory's 25%
 ```
+
+## Custom Layout
+- move Explorer's `Package Outline` to the right
