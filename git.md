@@ -84,3 +84,5 @@ const (
 	hotfixDesc   string = "HOTFIX (Bug fix urgently)"
 )
 ```
+
+Problem: [commit message new line](https://github.com/mritd/gitflow-toolkit/issues/19#issuecomment-1008567284)
