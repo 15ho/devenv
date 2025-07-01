@@ -25,6 +25,7 @@ settings.json (User)
         "template": ""
     },
     "go.testFlags": [
+        "-count=1",
         "-v"
     ],
     "todo-tree.general.tags": [
