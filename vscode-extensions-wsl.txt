@@ -5,6 +5,8 @@ eamodio.gitlens
 golang.go
 gruntfuggly.todo-tree
 ms-vscode.makefile-tools
+ms-vscode.vscode-typescript-next
+nomicfoundation.hardhat-solidity
 redhat.vscode-yaml
 rust-lang.rust-analyzer
 shd101wyy.markdown-preview-enhanced
