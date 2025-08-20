@@ -7,47 +7,51 @@
 settings.json (User)
 ```json
 {
-    "files.autoSave": "afterDelay",
-    "editor.fontFamily": "Comic Mono",
-    "terminal.integrated.fontFamily": "Comic Mono",
-    "editor.fontSize": 15,
-    "terminal.integrated.fontSize": 15,
-    "go.toolsManagement.autoUpdate": true,
-    "http.noProxy": [
-        "socks5://<host:port>"
-    ],
-    "workbench.editor.empty.hint": "hidden",
-    "go.addTags": {
-        "tags": "json",
-        "options": "",
-        "promptForTags": false,
-        "transform": "snakecase",
-        "template": ""
-    },
-    "go.testFlags": [
-        "-count=1",
-        "-v"
-    ],
-    "todo-tree.general.tags": [
-        "BUG",
-        "HACK",
-        "FIXME",
-        "TODO",
-        "XXX",
-        "[ ]",
-        "[x]",
-        "NOTE"
-    ]
+	"files.autoSave": "afterDelay",
+	"editor.fontFamily": "Comic Mono",
+	"terminal.integrated.fontFamily": "Comic Mono",
+	"editor.fontSize": 15,
+	"terminal.integrated.fontSize": 15,
+	"go.toolsManagement.autoUpdate": true,
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.startupEditor": "none",
+	"go.testFlags": [
+		"-count=1",
+		"-v"
+	],
+	"todo-tree.general.tags": [
+		"BUG",
+		"HACK",
+		"FIXME",
+		"TODO",
+		"XXX",
+		"[ ]",
+		"[x]",
+		"NOTE"
+	],
+	"makefile.configureOnOpen": true,
+	"Lingma.cloudModelAutoTriggerGenerateLength": "long",
+	"Lingma.cloudModelManualTriggerGenerateLength": "long",
+	"workbench.iconTheme": "material-icon-theme",
+	"gitlens.views.commitDetails.files.layout": "list",
+	"update.showReleaseNotes": false,
+	"remote.autoForwardPortsSource": "hybrid",
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"http.systemCertificates": false
 }
 ```
 
 settings.json (WSL)
 ```json
 {
-    // protobuf deps: go to definition
-    "tooltitude.pb.includes": [
-        "<deps protos directory path. ex./home/xxx/.include>"
-    ]
+	// protobuf deps: go to definition
+	"tooltitude.pb.includes": [
+			"<deps protos directory path. ex./home/xxx/.include>"
+	],
+	"editor.formatOnSave": true,
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false
 }
 ```
 
