@@ -1,6 +1,5 @@
 Extensions installed on WSL: Ubuntu:
 42crunch.vscode-openapi
-alibaba-cloud.tongyi-lingma
 eamodio.gitlens
 github.vscode-github-actions
 golang.go
