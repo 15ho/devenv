@@ -1,7 +1,6 @@
 Extensions installed on WSL: Ubuntu:
 42crunch.vscode-openapi
 eamodio.gitlens
-github.vscode-github-actions
 golang.go
 gruntfuggly.todo-tree
 ms-python.debugpy
@@ -15,5 +14,6 @@ redhat.vscode-yaml
 rust-lang.rust-analyzer
 shd101wyy.markdown-preview-enhanced
 streetsidesoftware.code-spell-checker
+tabbyml.vscode-tabby
 tamasfe.even-better-toml
 tooltitudeteam.tooltitude-pb
