@@ -50,7 +50,7 @@ settings.json (WSL)
 			"<deps protos directory path. ex./home/xxx/.include>"
 	],
 	"editor.formatOnSave": true,
-	"editor.tabSize": 2
+	"editor.tabSize": 4
 }
 ```
 
